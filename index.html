@@ -21,24 +21,42 @@
   </head>
   <body>
     <nav>
-      <div class="row m-2 mt-3">
-        <div class="col-6 d-flex">
-          <img
-            class="img-fluid"
-            style="height: 4rem"
-            src="./images/ic-logo.svg"
-            alt="logo"
-          />
-          <p style="font-size: 2rem" class="">
-            <span>COLMAR</span><span class="text-secondary">ACADEMY</span>
-          </p>
-        </div>
-        <div class="col-6 d-flex justify-content-end align-items-center">
-          <div class="p-2">On Campus</div>
-          <div class="p-2">Online</div>
-          <div class="p-2">For Companies</div>
-          <div class="p-2">Sign in</div>
-        </div>
+        <section class="d-md-block d-sm-none">
+            <div class="row m-2 mt-3 ">
+                    <div class="col-6 d-flex">
+                    <img
+                        class="img-fluid"
+                        style="height: 4rem"
+                        src="./images/ic-logo.svg"
+                        alt="logo"
+                    />
+                    <p style="font-size: 2rem" class="">
+                        <span>COLMAR</span><span class="text-secondary">ACADEMY</span>
+                    </p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="p-2">On Campus</div>
+                    <div class="p-2">Online</div>
+                    <div class="p-2">For Companies</div>
+                    <div class="p-2">Sign in</div>
+                    </div>
+            </div>
+        </section>
+        <section class="d-none d-sm-block d-md-none">
+            <div class="row row-cols-1 m-2 mt-3 ">
+                    <div class="d-flex justify-content-md-center  align-items-end col-md-auto">
+                        <div class="col">
+                            <img class="img-fluid" style="height: 4rem" src="./images/ic-logo.svg" alt="logo" /></div>
+                        <div class="col">
+                             <img class="img-fluid" style="height: 4rem" src="./images/ic-on-campus.svg" alt="logo" /></div>
+                        <div class="col">
+                            <img class="img-fluid" style="height: 4rem" src="./images/ic-online.svg" alt="logo" /></div>
+                        <div class="col">
+                            <img class="img-fluid" style="height: 4rem" src="./images/ic-login.svg" alt="logo" /></div>
+                    </div>
+            </div>
+        </section>
+
       </div>
     </nav>
     <div class="bg-light">
@@ -61,7 +79,7 @@
     <!-- <div> -->
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sm-12 my-3 align-items-center">
+            <div class="col-md-7 d-md-block d-sm-none my-3 align-items-center">
                 <img class="img-fluid" src="./images/information-main.jpg" />
                 <p style="color: rgb(92, 97, 102);">
                 <span class="h3 text-center  fw-bold" ><br>It doesn't hurt to keep practicing</span><br><br>
@@ -70,8 +88,11 @@
             </div>
             <div class="col-md-5 col-sm-12 my-3 d-flex align-items-center">
                 <div class="row align-items-center">  
-                    <div class="col-md-4 col-sm-12 my-3">
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-none d-md-block">
                         <img class="img-fluid" src="./images/information-orientation.jpg" />
+                    </div>
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-block d-none d-md-none">
+                        <img class="img-fluid" src="./images/information-orientation-mobile.jpg" />
                     </div>
                     <div class="col-md-8 col-sm-12 my-3">
                         <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Orientation date </p> 
@@ -79,8 +100,11 @@
                         <p class="link-primary">Read more</p>   
                     </div>
 
-                    <div class="col-md-4 col-sm-12 my-3">
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-none d-md-block">
                         <img class="img-fluid" src="./images/information-campus.jpg" />
+                    </div>
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-block d-none d-md-none">
+                        <img class="img-fluid" src="./images/information-campus-mobile.jpg" />
                     </div>
                     <div class="col-md-8 col-sm-12 my-3">
                         <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Our campus </p> 
@@ -88,8 +112,11 @@
                         <p class="link-primary">Read more</p>   
                     </div>
    
-                    <div class="col-md-4 col-sm-12 my-3">
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-none d-md-block">
                         <img class="img-fluid" src="./images/information-guest-lecture.jpg" />
+                    </div>
+                    <div class="col-md-4 col-sm-12 my-3 d-sm-block d-none d-md-none">
+                        <img class="img-fluid" src="./images/information-guest-lecture-mobile.jpg" />
                     </div>
                     <div class="col-md-8 col-sm-12 my-3">
                         <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Our guest lecture </p> 
@@ -101,70 +128,88 @@
         </div> 
     </div>
     <!-- </div> -->
-    <div class="bg-light">
-        <div class="container bg-ligt">
+    <div class="bg-light mx-auto">
+        <div class="container bg-ligt mx-auto">
             <div class="row mx-auto  text-center my-4 ">
-                <div class="h2 fw-bold" style="color: slategray;">    
+                <div class="h2 fw-bold" style="color: rgb(92, 97, 102)">    
                     Start Learning
                 </div>
 
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="./images/course-software.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <section class="d-md-block d-sm-none ">
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/course-software.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Software engineering</h6>
+                        <p class="text-uppercase text-muted">Courses</p>
+                        <p class="card-text text-muted">Web development, Mobile Development, iOT, APIs</p>
+                        </div>
                     </div>
-                  </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="./images/course-computer-art.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Computer Art</h6>
+                            <p class="text-uppercase text-muted">Courses</p>
+                            <p class="card-text text-muted">Imaging & Design, Motion Graphics & Visual Effects, Computer Animation.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/course-design.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Design</h6>
+                        <p class="text-uppercase text-muted">Courses</p>
+                        <p class="card-text text-muted">User Experience Design, User Research, Visual Design</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/course-data.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Data</h6>
+                        <p class="text-uppercase text-muted">Courses</p>
+                        <p class="card-text text-muted">Data Science, Big Data, SQL, Data Visualization.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/course-business.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Business</h6>
+                        <p class="text-uppercase text-muted">Courses</p>
+                        <p class="card-text text-muted">Product Development, Business Development, Startup</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="./images/course-marketing.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold" style="color: rgb(92, 97, 102)">Marketing</h6>
+                            <p class="text-uppercase text-muted">Courses</p>
+                            <p class="card-text text-muted">Analytics, Content Marketing, Mobile Marketing.</p>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                      <img src="./images/course-computer-art.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./images/course-design.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./images/course-data.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./images/course-business.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                      <img src="./images/course-marketing.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+            </section>    
+            <div class=" d-none d-sm-block d-md-none" >
+                <ul class="list-group text-center">
+                    <li class="list-group-item">Software engineering</li>
+                    <li class="list-group-item">Computer art</li>
+                    <li class="list-group-item">Design</li>
+                    <li class="list-group-item">Data</li>
+                    <li class="list-group-item">Business</li>
+                    <li class="list-group-item">Marketing</li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -172,45 +217,52 @@
     <div>
         <div class="container">
             <div class="row mx-auto  text-center my-4 ">
-                <div class="h2 fw-bold" style="color: slategray;">    
+                <div class="h2 fw-bold" style="color:rgb(92, 97, 102);">    
                     Thesis exhibit
                 </div>
 
             </div>
           <div class="row">
             <div class="col-md-7 col-sm-12 my-3 align-items-center">
-              <img class="img-fluid" src="./images/information-main.jpg" />
-                <p style="color: rgb(92, 97, 102);">
-               <span class="h3 text-center  fw-bold" ><br>Reimagine urban</span><br><br>
-               <span class="p fs-6 text-center">Curabitur ultricies turpis risus, at fringilla arcu laoreet eget. Mauris in rhoncus libero. Quisque mattis lacus sit amet elit interdum consequat. Nam lorem enim, viverra eu convallis vel, euismod et tellus. </span></p>
-               <p style= "color: rgb(92, 97, 102);" class="font-size: ">Emanuel, Sr Strategist at Hiring.com </p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video controls class="img-fluid">
+                    <source src="./videos/thesis.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                </div> 
+                <p class=" d-md-block d-sm-none" style="color: rgb(92, 97, 102);"><span class="h3 text-center  fw-bold " style="color: rgb(92, 97, 102);"><br>Reimagine urban</span><br><br>
+               <span class="p fs-6 text-center" style="color: rgb(92, 97, 102);">Curabitur ultricies turpis risus, at fringilla arcu laoreet eget. Mauris in rhoncus libero. Quisque mattis lacus sit amet elit interdum consequat. Nam lorem enim, viverra eu convallis vel, euismod et tellus. </span></p>
             </div>
-            <div class="col-md-5 col-sm-12 my-3 p-3 d-flex align-items-center">
+            <div class="col-md-5 d-block d-sm-none  my-3 p-3 d-flex align-self-start">
     
-              <div class="row align-items-center">  
-                <div class="col-md-4 col-sm-12 my-3">
-                    <img class="img-fluid" src="./images/information-orientation.jpg" />
-                </div>
-                <div class="col-md-8 col-sm-12 my-3">
-                    <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Orientation date </p> 
-                    <p style="color: rgb(92, 97, 102);" >Tue 10/11 & Wed 10/12: 8am-3pm </p> 
-                    <p class="link-primary">Read more</p>   
-                </div>
- 
-                <div class="col-md-4 col-sm-12 my-3">
-                    <img class="img-fluid" src="./images/information-campus.jpg" />
-                </div>
-                <div class="col-md-8 col-sm-12 my-3">
-                    <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Our campus </p> 
-                    <p style="color: rgb(92, 97, 102);" >Find which campus is close by you </p> 
-                    <p class="link-primary">Read more</p>   
-                </div>
-
-              <!-- </div> -->
+              <div class="row align-top"> 
+                    <div class="col-md-4 col-sm-12 my-3 align-self-start">
+                        <img class="img-fluid" src="./images/thesis-fisma.jpg"/>
+                    </div>
+                    <div class="col-md-8 col-sm-12 my-3 align-self-start">
+                        <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Fisma: Design and Prototype </p> 
+                        <p style="color: rgb(92, 97, 102);" >Designer showcase of new prototype product </p>    
+                    </div>
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <img class="img-fluid" src="./images/thesis-now-and-then.jpg" />
+                    </div>
+                    <div class="col-md-8 col-sm-12 my-3">
+                        <p style="color: rgb(92, 97, 102);" class="h5   fw-bold" >Our campus </p> 
+                        <p style="color: rgb(92, 97, 102);" >Research about New York</p>  
+                    </div>
+              </div> 
+                
+              
             </div>  
           </div> 
         </div>
     </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted">Colmar Academy. All rigths reserved.</span>
+        </div>
+      </footer>
     <!-- </div> -->
   </body>
 </html>
