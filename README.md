@@ -2,7 +2,9 @@
 
 ## Description
 
-This is our assessment to put all our knowledge into practice! You will create the [Codecademy's Colmar Project](https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/learn-how-to-build-websites-capstone-project/modules/colmar-academy/projects/colmar-academy).
+The project intends to use of the Bootstrap knowledge and its accompanying documentation to create a responsive website for Colmar Academy.
+
+This project was part of the Junior Web Developer Bootcamp by Generation
 
 ## Resources
 
@@ -10,16 +12,6 @@ This is our assessment to put all our knowledge into practice! You will create t
 - [bootstrap](https://getbootstrap.com/)
 
 
-## Setup
+## License
 
-As it is intended to be done all on your own environment, you may not want to follow along my steps. So feel free to do it any way you see fit.
-
-- `fork` and `git clone` the repo to get the necessary files. 
-- `cd colmar-academy`
-- `code .` 
-- `touch index.html`
-- `open index.html`
-
-## Recommendations
-
-When you see measurements in pixels, consider using [bootstrap's built in spacing](https://getbootstrap.com/docs/5.0/utilities/spacing/). This will make the site more responsive.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
